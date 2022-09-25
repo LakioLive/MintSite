@@ -10,18 +10,16 @@
     width: 90px;
     height: 53px;
     float: left;
+    padding: 0 0 0 375px;
 }
 
 .navbar {
-    /* margin-top: 35px;
-    margin-right: 375px;
-    margin-left: 375px; */
-    margin: 35px 375px;
+    padding: 35px 375px 35px 0;
 }
 
 .nav ul {
     list-style: none;
-    padding: 20px;
+    padding-top: 15px;
     float: right;
     display: flex;
     justify-content: right;
@@ -44,4 +42,44 @@ a {
 
 ul {
     padding-left: 0;
+}
+
+.header {
+    margin: 125px 375px 0 375px;
+    display: flex;
+}
+
+.infoPodzagolowok {
+    align-self: center;
+}
+
+.zagolowok p {
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.podzagolowok p {
+    margin: 40px 0 0 0;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.btn_sendMessage {
+    margin: 45px 0 0 0;
+}
+
+.btn_sendMessage a {
+    display: inline-block;
+    /* padding: 12.5px 45px; */
+    width: 180px;
+    /* height: 50px; */
+    text-align: center;
+    padding: 15.5px 0;
+    background-color: #ffe100;
+}
+
+.pictureBuild {
+    /* outline: 1px solid black; */
+    background-color: #edf2f6;
+    padding: 270px 285px;
 }
