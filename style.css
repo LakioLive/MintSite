@@ -4,7 +4,13 @@
     font-family: "Montserrat";
     /* font-weight: 500; */
     margin: 0;
+    /* outline: 1px solid black; */
 }
+
+
+
+
+/* Navbar */
 
 .logo img {
     width: 90px;
@@ -44,21 +50,26 @@ ul {
     padding-left: 0;
 }
 
+
+
+
+/* Header */
+
 .header {
     margin: 125px 375px 0 375px;
     display: flex;
 }
 
-.infoPodzagolowok {
+.header_info {
     align-self: center;
 }
 
-.zagolowok p {
+.header_header p {
     font-weight: 800;
     font-size: 60px;
 }
 
-.podzagolowok p {
+.subtitle_header p {
     margin: 40px 0 0 0;
     font-size: 12px;
     line-height: 30px;
@@ -77,20 +88,24 @@ ul {
 }
 
 .pictureBuild {
-    /* outline: 1px solid black; */
     background-color: #edf2f6;
     padding: 270px 285px;
 }
+
+
+
+
+/* Rortfolio */
 
 .portfolio {
     padding: 125px 375px 0 375px;
 }
 
-.zagolowok_workShowcase {
+.header_workShowcase {
     margin-bottom: 70px;
 }
 
-.zagolowok_workShowcase p {
+.header_workShowcase p {
     font-weight: 800;
     font-size: 60px;
 }
@@ -124,6 +139,11 @@ nav li {
     width: 14px;
     height: 11px;
 }
+
+
+
+
+/* Image filter */
 
 .image_filter {
     display: grid;
@@ -201,6 +221,11 @@ nav li {
     background-color: #ffe100;
 }
 
+
+
+
+/* Partners */
+
 .images_partners {
     background-color: #fdfdfd;
     display: flex;
@@ -210,6 +235,7 @@ nav li {
     align-items: center;
     padding-left: 375px;
     padding-right: 375px;
+    margin-bottom: 125px;
 }
 
 .images_partners img {
@@ -239,6 +265,223 @@ nav li {
 .partner6 img {
     width: 95px;
 }
+
+
+
+
+
+/* About */
+
+.about {
+    margin: 0 375px 125px 375px;
+}
+
+.header_aboutUs p {
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.subtitle_aboutUs p {
+    margin: 40px 0 40px 0;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.persones {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.persone1 {
+    background-color: #edf2f6;
+    width: 370px;
+    height: 420px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.path_persone1 {
+    background-color: #ffe100;
+    width: 250px;
+    height: 70px;
+}
+
+.name_persone1 p {
+    font-weight: 800;
+    font-size: 15px;
+    margin: 15px 0 5px 25px;
+}
+
+.webDes_persone1 p {
+    color: #ffffff;
+    font-size: 12px;
+    margin-left: 25px;
+}
+
+.persone2 {
+    background-color: #edf2f6;
+    width: 370px;
+    height: 420px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.path_persone2 {
+    background-color: #ffe100;
+    width: 250px;
+    height: 70px;
+}
+
+.name_persone2 p {
+    font-weight: 800;
+    font-size: 15px;
+    margin: 15px 0 5px 25px;
+}
+
+.webDes_persone2 p {
+    color: #ffffff;
+    font-size: 12px;
+    margin-left: 25px;
+}
+
+.header_info_about p {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.subtitle_info_about {
+    margin: 45px 0 45px 0;
+}
+
+.subtitle_info_about p {
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.btn_info_about a {
+    font-size: 12px;
+}
+
+
+
+
+/* Blog */
+
+.blog {
+    margin-bottom: 120px;
+    background-color: #fdfdfd;
+    padding: 120px 375px 120px 375px;
+}
+
+.header_blog p {
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.subtitle_blog p {
+    margin: 40px 0 40px 0;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.article_blog {
+    display: flex;
+    column-gap: 30px;
+}
+
+.image_blog {
+    background-color: #edf2f6;
+    width: 370px;
+    height: 280px;
+}
+
+.hover_blog {
+    background-color: #ffe100;
+    width: 370px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hover_blog a {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.article_text_blog {
+    background-color: #ffffff;
+    padding: 25px 0;
+}
+
+.header_article_blog p {
+    font-weight: 800; 
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.sibtitle_article_blog p {
+    font-size: 12px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.data_article_blog p {
+    font-size: 12px;
+}
+
+
+
+/* Contact Us */
+
+.contact {
+    margin: 0 375px 240px 375px;
+}
+
+.header_contact p {
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.subtitle_contact p {
+    margin: 40px 0 40px 0;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.header_sendUsMessange p {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.input input {
+    border: none;
+    background-color: #fdfdfd;
+}
+
+.input_name input, .input_email input{
+    width: 570px;
+    height: 45px;
+}
+
+.input_message input{
+    width: 570px;
+    height: 135px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Filter work showcase */
 
 .hide {
     opacity: 1;
