@@ -10,23 +10,23 @@
 <body>
     <!-- Navbar -->
 
-    <div class="navbar">
-        <div class="logo">
-            <img src="images/Vector Smart Object.jpg" alt="">
+    <div class="navbar" id="navbar">
+        <div class="logo" id="logo">
+            <img src="images/logo1.png" alt="">
         </div>
-        <div class="nav">
+        <div class="nav" id="nav">
             <ul>
-                <li><a href="#">WORK</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="#" data-scroll="#work">WORK</a></li>
+                <li><a href="#" data-scroll="#about">ABOUT</a></li>
+                <li><a href="#" data-scroll="#blog">BLOG</a></li>
+                <li><a href="#" data-scroll="#contact">CONTACT</a></li>
             </ul>
         </div>
     </div>
 
     <!-- Header -->
 
-    <div class="header">
+    <div class="header" id="header">
         <div class="header_info">
             <div class="header_header">
                 <p>Hello!!! <br> We Are Creative <br> Digital Agency</p>
@@ -36,7 +36,7 @@
                     labore et dolore magna aliqua.</p>
             </div>
             <div class="btn_sendMessage">
-                <a href="#">SEND MESSAGE</a>
+                <a href="#" target="_blank">SEND MESSAGE</a>
             </div>
         </div>
         <div class="pictureBuild"></div>
@@ -44,7 +44,7 @@
 
     <!-- Portfolio -->
 
-    <div class="portfolio">
+    <div class="portfolio" id="work">
         <div class="header_workShowcase">
             <p>WORK SHOWCASE</p>
         </div>
@@ -60,7 +60,7 @@
             <div class="filter">
                 <a href="#">NEWEST FIRST</a>
                 <div class="arrow">
-                    <img src="images/28-285293_arrow-clipart-icons-png-right-arrow-png-website.png" alt="">
+                    <img src="images/arrow1.png" alt="">
                 </div>
             </div>
         </div>
@@ -85,7 +85,7 @@
             <div class="setting_filter image_portfolio image6 web"></div>
         </div>
         <div class="btn_showMeMore">
-            <a href="#">SHOW ME MORE</a>
+            <a href="#" target="_blank">SHOW ME MORE</a>
         </div>
     </div>
 
@@ -116,7 +116,7 @@
 
     <!-- About -->
 
-    <div class="about">
+    <div class="about" id="about">
         <div class="header_aboutUs">
             <p>ABOUT US</p>
         </div>
@@ -156,7 +156,7 @@
                         aliqua.</p>
                 </div>
                 <div class="btn_info_about">
-                    <a href="#">Read More</a>
+                    <a href="#" target="_blank">Read More</a>
                 </div>
             </div>
         </div>
@@ -164,7 +164,7 @@
 
     <!-- Blog -->
 
-    <div class="blog">
+    <div class="blog" id="blog">
         <div class="header_blog">
             <p>OUR BLOG</p>
         </div> 
@@ -176,7 +176,7 @@
             <div class="article1">
                 <div class="image_blog">
                     <div class="hover_blog">
-                        <a href="#">READ MORE</a>
+                        <a href="#" target="_blank">READ MORE</a>
                     </div>
                 </div>
                 <div class="article_text_blog">
@@ -227,7 +227,7 @@
 
     <!-- Contact us -->
 
-    <div class="contact">
+    <div class="contact" id="contact">
         <div class="header_contact">
             <p>CONTACT US</p>
         </div>
@@ -236,25 +236,81 @@
                 ut labore et dolore magna aliqua.</p>
         </div>
         <div class="sendUsMessage">
-            <div class="header_sendUsMessange">
-                <p>Send Us Message</p>
+            <div class="input_flex">
+                <div class="header_sendUsMessange">
+                    <p>Send Us Message</p>
+                </div>
+                <div class="input input_name">
+                    <input type="text" id="name" value="Name">
+                </div>
+                <div class=" input input_email">
+                    <input type="email" id="email" value="Email">
+                </div>
+                <div class="input input_message">
+                    <textarea name="message" id="message">Message</textarea>
+                </div>
+                <div class="btn_sendMessage">
+                    <a href="#" target="_blank">SEND MESSAGE</a>
+                </div>
             </div>
-            <div class="input input_name">
-                <input type="text" id="name" value="Name">
+            <div class="image_contact"></div>
+        </div>
+        <div class="info_contact">
+            <div class="adress">
+                <img src="images/VectorObject1.png" alt="">
+                <p>1211 Awesome Avenue,<br>
+                    NY USD</p>
             </div>
-            <div class=" input input_email">
-                <input type="email" id="email" value="Email">
+            <div class="phone">
+                <img src="images/VectorObject2.png" alt="">
+                <p>+00 123 - 456 -78<br>
+                    +00 123 - 456 -78</p>
             </div>
-            <div class="input input_message">
-                <input type="text" id="message" value="Message">
-            </div>
-            <div class="btn_sendMessage">
-                <a href="#">SEND MESSAGE</a>
+            <div class="email">
+                <img src="images/VectorObject3.png" alt="">
+                <p>mint@mintmail.com</p>
             </div>
         </div>
-        <div class="image_contact"></div>
+        <div class="info_socialNetwork">
+            <div class="facebook">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="images/icons8-facebook-f-192.png" alt="">
+                </a>
+            </div>
+            <div class="twitter">
+                <a href="https://twitter.com/" target="_blank">
+                    <img src="images/icons8-twitter-240.png" alt="">
+                </a>
+            </div>
+            <div class="instagram">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="images/icons8-instagram-240.png" alt="">
+                </a>
+            </div>
+        </div>
     </div>
 
-<script src="filter.js"></script>
+    <!-- Footer -->
+
+    <div class="footer">
+        <div class="logo-messange_footer">
+            <div class="logo_footer">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div class="footer_messange">
+                <p>© 2020 - Mint,All Right Reserved</p>
+            </div>
+        </div>
+        <div class="backToTop">
+            <p onclick="topFunction()" id="myBtn">BACK TO TOP</p>
+            <img src="images/arrow.png" alt="" onclick="topFunction()" id="myBtn">
+        </div>
+    </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/filter.js"></script>
+<script src="js/toTopButton.js"></script>
+<script src="js/smoothScroll.js"></script>
+<script src="js/stickyNavbar.js"></script>
 </body>
 </html>
