@@ -22,6 +22,7 @@
 .logo img {
     width: 90px;
     height: 53px;
+    cursor: pointer;
 }
 
 .nav ul {
@@ -138,9 +139,11 @@ nav li:hover {
 .filter {
     display: flex;
     justify-content: left;
+    cursor: pointer;
+
 }
 
-.filter a {
+.filter p {
     margin-right: 12px;
 }
 
@@ -628,3 +631,23 @@ nav li:hover {
         font-weight: 0;
     }
 }
+
+.dropdown_filter {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 25px;
+}
+
+.dropdown_filter a {
+  color: black;
+  margin-top: 5px;
+  padding: 12px 16px;
+  display: block;
+}
+  
+.show {display: block;}
